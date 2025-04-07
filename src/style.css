@@ -31,6 +31,7 @@ header {
 header img {
     width: auto;
     height: 8rem;
+    filter: drop-shadow(1px 2px 2px #008000);
 }
 
 main {
@@ -45,6 +46,7 @@ main section {
     padding: 1rem;
     max-width: 80rem;
     border-radius: 8px;
+    box-shadow: 1px 1px 5px;
 }
 
 main section span {
