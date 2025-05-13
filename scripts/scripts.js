@@ -1,21 +1,6 @@
-let usdInput = document.querySelector("#US$");
-let brlInput = document.querySelector("#BRL$");
-let img = document.querySelector("#img");
+const sidebar = document.getElementById("sidebar");
+const toogleButton = document.getElementById("toogleSidebar");
 
-usdInput.addEventListener("keyup", function() {
-
-})
-
-brlInput.addEventListener("keyup", function() {
-
-})
-
-img.addEventListener("mouseover", function() {
-    img.style.transform = "scale(1.2)";
-    img.style.transition = "transform 0.5s ease";
-})
-
-img.addEventListener("mouseout", function() {
-    img.style.transform = "scale(1)";
-    img.style.transition = "transform 0.5s ease";
+    toogleButton.addEventListener("click", function(){
+        sidebar.classList.toggle("active");
 })
