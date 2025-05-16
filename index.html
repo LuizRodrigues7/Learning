@@ -1,37 +1,49 @@
-<!DOCTYPE html>
-<html lang="PT-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <aside id="sidebar">
-        <ul>
-            <li><a href="" class="sidebar-link">Galeria</a></li>
-            <li><a href="" class="sidebar-link">Portfólio</a></li>
-            <li><a href="" class="sidebar-link">Habilidades</a></li>
-            <li><a href="" class="sidebar-link">Redes sociais</a></li>
-            <li class="final"><a href="" class="sidebar-link">Contato</a></li>
-        </ul>
-    </aside>
-    <main>
-        <nav class="navbar">
-            <div class="nav-content">
-                <ul class="nav-list">
-                    <li style="list-style: none;"><a href="" class="nav-link">Home</a></li>
-                    <li style="list-style: none;"><a href="" class="nav-link">About me</a></li>
-                    <img src="src/assets/L (1).png" alt="logo" class="logo">
-                    <li style="list-style: none;"><a href="" class="nav-link">Contact</a></li>
-                    <li style="list-style: none;"><button id="toogleSidebar" class="menu-btn nav-link">Menu</button></li>
-                </ul>
-            </div>
-        </nav>
-    </main>
-    <script src="scripts/scripts.js"></script>
-</body>
+<!DOCTYPE html> 
+<html lang="PT-br"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Document</title> 
+        <link rel="stylesheet" href="pages/style/style 1.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head> 
+<body> 
+    <aside id="sidebar" class="sidebar"> 
+        <ul class="sidebar-ul ul-1"> 
+            <li class="sidebar-li"><a href="">Galeria</a></li> 
+            <li class="sidebar-li"><a href="">Redes sociais</a></li> 
+            <li class="sidebar-li"><a href="pages/portifólio.html">Portifólio</a></li> 
+            <li class="sidebar-li"><a href="">Contato</a></li> </ul> </aside> 
+        <main> 
+            <nav class="navbar-content" style="filter: drop-shadow(2px 3px 3px);" id="nav-ul"> 
+                <div> 
+                    <ul class="nav-link ul-1"> <li><a href="#home" class="nav-link">Início</a></li> 
+                        <li><a href="#contact" class="nav-link">Contatos</a></li> <a href="index 1.html"><img src="src/L-logo.png" alt="L-logo" class="nav-logo" ></a> 
+                        <li><a href="#about-me" class="nav-link">Sobre mim</a></li> 
+                        <li><button id="toggleSidebar" class="sidebar-btn">☰</button></li> 
+                    </ul> 
+                </div> 
+            </nav> 
+            <section id="home" style="border-top: solid gray; border-bottom: solid gray; padding: 10px; border-radius: 40px; margin-bottom: 300px;" class="title-text"> 
+                <h1>Olá! Seja bem-vindo ao meu site!!</h1> 
+                <h2>Mais abaixo você vai encontrar: <ul class="title-text"> <li class="index-list">Resumo;</li> 
+                    <li class="index-list">Sobre mim.</li> 
+                </ul> 
+            </h2> 
+            <h2 style="margin-top: -20px;">Boa navegação!!</h2> 
+        </section> 
+        <div class="section-img"><img src="src/OIP-removebg-preview.png" alt="boat" style="width: 250px;"></div> 
+        <section id="home" style="margin-top: 350px; border-top: solid gray; border-bottom: solid gray; border-radius: 10px;" class="sum-text"> 
+            <p><b>Olá, como vai?</b><br>Me chamo Luiz e sou um aspirante a desenvolvedor web. Tenho 18 anos e estou me especializando em front-end com objetivo de entregar o melhor resultado possível. Atualmente estou apenas melhorando minhas habilidades, treinando HTML, CSS, JavaScript e Python, onde desenvolvi apenas 1 projeto do ensino médio. Explore meu portifólio para ver alguns dos meus futuros projetos!!</p> 
+            <img src="src/loading-image.png" alt="" class="sum-img"> 
+        </section> 
+        <section id="about-me" class="text">
+            <p style="margin-left: 1rem; background-color: rgb(128, 127, 127); border-radius: 8px; padding: 8px; color: white; width: 30 vh; margin-right: 82px;">Assim como a maioria, programação para mim sempre foi um monstro terrível do qual eu queria distância, até que em um mágico dia, ela se tornou uma necessidade para mim, um medo do qual eu não poderia mais fugir. Assim surgiu meu amor por esse mundo e a paz (nem sempre) em que digitar centenas e centenas de linhas de código me trazem, mas é claro que nem sempre o caminho vai ser fácil, requer constância, foco, vontade e adaptação. Quando há um objetivo, tudo se torna mais suportável.</p>
+            <img src="src/loading-image.png" alt="" style="width: 40%; height: auto;" class="text-img">
+        </section> 
+    </main> 
+    <script src="scripts.js"></script> 
+</body> 
 </html>
